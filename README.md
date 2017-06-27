@@ -1,34 +1,49 @@
-# Agora-Mac-Tutorial-Objective-C
+# Agora macOS Tutorial for Objective-C - 1to1
 
-This tutorial is written in Objective-C. You can also find an equivalent [Swift tutorial](https://github.com/AgoraIO/Agora-Mac-Tutorial-Swift).
+*Read this in other languages: [English](README.en.md)*
 
+这个开源示例项目演示了如何快速集成Agora视频SDK，实现1对1视频通话。
 
-## Project Description
+在这个示例项目中包含了以下功能：
 
-This 12-step tutorial will help you get video chat integrated directly into your Mac (Cocoa) applications using the Agora.io Real Time Communications SDK. This first app includes the following features:
-- Make 1:1 Video Call
-- Mute
-- Video Mute (Camera Off)
-- Device Selection
-- Screen Share
-- Hang Up
+- 加入通话和离开通话；
+- 静音和解除静音；
+- 关闭摄像头和开启摄像头；
+- 设备选择；
+- 屏幕共享；
 
-## Developer Environment Requirements
+本开源项目使用 **Objective-C** 语言，你可以在这里找到使用 **Swift** 的项目：[Agora-macOS-Tutorial-Swift-1to1](https://github.com/AgoraIO/Agora-macOS-Tutorial-Swift-1to1)
 
-- Apple XCode version 6.0 or higher
-- OSX 10.0 SDK or higher
+你也可以在这里查看进阶版的示例项目：[OpenVideoCall-macOS](https://github.com/AgoraIO/OpenVideoCall-macOS)
 
-## Instructions
+Agora视频SDK支持 iOS / Android / Windows / macOS 等多个平台，你可以查看对应各平台的示例项目：
 
-1. Create a developer account and obtain an App ID at http://www.agora.io
-2. Update "AppID.m" with your App ID
-3. Download the Mac SDK from the "Getting Started" tab
-4. Unzip the downloaded SDK package and copy the "libs" folder to the project folder
+- [Agora-iOS-Tutorial-Objective-C-1to1](https://github.com/AgoraIO/Agora-iOS-Tutorial-Objective-C-1to1)
+- [Agora-Android-Tutorial-1to1](https://github.com/AgoraIO/Agora-Android-Tutorial-1to1)
+- [Agora-Windows-Tutorial-1to1](https://github.com/AgoraIO/Agora-Windows-Tutorial-1to1)
 
-## Enjoy!
+## 运行示例程序
+首先在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 AppID。将 AppID 填写进 AppID.m
 
-This is an introduction to the Agora.io Real Communications SDK on Mac. You can also find Agora.io Real Time Communications SDK for other platforms: Web, iOS, Android, and Windows at http://www.agora.io. From here, you can start building applications and integrate video chat.
+```
+NSString *const appID = @"Your App ID"; 
+```
 
-## License
+然后在 [Agora.io SDK](https://www.agora.io/cn/blog/download/) 下载 **视频通话 + 直播 SDK**，解压后将其中的 **libs** 文件夹复制到本项目目录下，和 “Agora Mac Tutorial Objective-C” 文件夹平级。
 
-MIT
+最后使用 XCode 打开 Agora Mac Tutorial Objective-C.xcodeproj，设置有效的开发者签名后即可运行。
+
+## 运行环境
+* XCode 8.0 +
+
+## 联系我们
+
+- 完整的 API 文档见 [文档中心](https://docs.agora.io/cn/)
+- 如果在集成中遇到问题, 你可以到 [开发者社区](https://dev.agora.io/cn/) 提问
+- 如果有售前咨询问题, 可以拨打 400 632 6626，或加入官方Q群 12742516 提问
+- 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io) 提交工单
+- 如果发现了示例代码的bug, 欢迎提交 [issue](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1/issues)
+
+## 代码许可
+
+The MIT License (MIT).
