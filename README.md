@@ -1,49 +1,46 @@
 # Agora macOS Tutorial for Objective-C - 1to1
 
-*Read this in other languages: [English](README.en.md)*
+*其他语言版本： [简体中文](README.zh.md)*
 
-这个开源示例项目演示了如何快速集成Agora视频SDK，实现1对1视频通话。
+The Agora macOS Tutorial for Objective-C 1to1 Sample App is an open-source demo that will help you get video chat integrated directly into your macOS applications using the Agora Video SDK.
 
-在这个示例项目中包含了以下功能：
+With this sample app, you can:
 
-- 加入通话和离开通话；
-- 静音和解除静音；
-- 关闭摄像头和开启摄像头；
-- 设备选择；
-- 屏幕共享；
+- Join / leave channel
+- Mute / unmute audio
+- Mute / unmute video
+- Device selection
+- Screen share
 
-本开源项目使用 **Objective-C** 语言，你可以在这里找到使用 **Swift** 的项目：[Agora-macOS-Tutorial-Swift-1to1](https://github.com/AgoraIO/Agora-macOS-Tutorial-Swift-1to1)
+This demo is written in **Objective-C**, you can find **Swift** version here: [Agora-macOS-Tutorial-Swift-1to1](https://github.com/AgoraIO/Agora-macOS-Tutorial-Swift-1to1)
 
-你也可以在这里查看进阶版的示例项目：[OpenVideoCall-macOS](https://github.com/AgoraIO/OpenVideoCall-macOS)
+A full-fledged demo can be found here: [OpenVideoCall-macOS](https://github.com/AgoraIO/OpenVideoCall-macOS)
 
-Agora视频SDK支持 iOS / Android / Windows / macOS 等多个平台，你可以查看对应各平台的示例项目：
+Agora Video SDK supports iOS / Android / Windows / macOS etc. You can find demos of these platform here:
 
 - [Agora-iOS-Tutorial-Objective-C-1to1](https://github.com/AgoraIO/Agora-iOS-Tutorial-Objective-C-1to1)
 - [Agora-Android-Tutorial-1to1](https://github.com/AgoraIO/Agora-Android-Tutorial-1to1)
 - [Agora-Windows-Tutorial-1to1](https://github.com/AgoraIO/Agora-Windows-Tutorial-1to1)
 
-## 运行示例程序
-首先在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 AppID。将 AppID 填写进 AppID.m
+## Running the App
+First, create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID. Update "AppID.m" with your App ID.
 
 ```
 NSString *const appID = @"Your App ID"; 
 ```
 
-然后在 [Agora.io SDK](https://www.agora.io/cn/blog/download/) 下载 **视频通话 + 直播 SDK**，解压后将其中的 **libs** 文件夹复制到本项目目录下，和 “Agora Mac Tutorial Objective-C” 文件夹平级。
+Next, download the **Agora Video SDK** from [Agora.io SDK](https://www.agora.io/en/download/). Unzip the downloaded SDK package and copy the "libs" folder to the project folder.
 
-最后使用 XCode 打开 Agora Mac Tutorial Objective-C.xcodeproj，设置有效的开发者签名后即可运行。
+Finally, Open Agora Mac Tutorial Objective-C.xcodeproj, setup your development signing and run.
 
-## 运行环境
+## Developer Environment Requirements
 * XCode 8.0 +
 
-## 联系我们
+## Connect Us
 
-- 完整的 API 文档见 [文档中心](https://docs.agora.io/cn/)
-- 如果在集成中遇到问题, 你可以到 [开发者社区](https://dev.agora.io/cn/) 提问
-- 如果有售前咨询问题, 可以拨打 400 632 6626，或加入官方Q群 12742516 提问
-- 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io) 提交工单
-- 如果发现了示例代码的bug, 欢迎提交 [issue](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1/issues)
+- You can find full API document at [Document Center](https://docs.agora.io/en/)
+- You can file bugs about this demo at [issue](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1/issues)
 
-## 代码许可
+## License
 
 The MIT License (MIT).
