@@ -59,7 +59,7 @@
     [self.agoraKit enableVideo];
     // Default mode is disableVideo
     
-    [self.agoraKit setVideoProfile:AgoraVideoProfilePortrait720P swapWidthAndHeight:false];
+    [self.agoraKit setVideoProfile:AgoraVideoProfileLandscape720P swapWidthAndHeight:false];
     // Default video profile is 360P
 }
 
@@ -202,7 +202,7 @@
     self.screenShare = !self.screenShare;
     if (self.screenShare) {
         [sender setImage:[NSImage imageNamed:@"screenShareButtonSelected"]];
-        [self.agoraKit startScreenCapture:0 withCaptureFreq:15 bitRate:1130 andRect:CGRectZero];
+        [self.agoraKit startScreenCapture:0 withCaptureFreq:15 bitRate:0 andRect:CGRectZero];
     } else {
         [sender setImage:[NSImage imageNamed:@"screenShareButton"]];
         [self.agoraKit stopScreenCapture];
