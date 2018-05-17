@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.md)*
 
-这个开源示例项目演示了如何快速集成Agora视频SDK，实现1对1视频通话。
+这个开源示例项目演示了如何快速集成 Agora 视频 SDK，实现 1 对 1 视频通话。
 
 在这个示例项目中包含了以下功能：
 
@@ -16,7 +16,7 @@
 
 你也可以在这里查看进阶版的示例项目：[OpenVideoCall-macOS](https://github.com/AgoraIO/OpenVideoCall-macOS)
 
-Agora视频SDK支持 iOS / Android / Windows / macOS 等多个平台，你可以查看对应各平台的示例项目：
+Agora 视频 SDK 支持 iOS / Android / Windows / macOS 等多个平台，你可以查看对应各平台的示例项目：
 
 - [Agora-iOS-Tutorial-Objective-C-1to1](https://github.com/AgoraIO/Agora-iOS-Tutorial-Objective-C-1to1)
 - [Agora-Android-Tutorial-1to1](https://github.com/AgoraIO/Agora-Android-Tutorial-1to1)
@@ -42,7 +42,7 @@ NSString *const appID = @"Your App ID";
 - 如果在集成中遇到问题, 你可以到 [开发者社区](https://dev.agora.io/cn/) 提问
 - 如果有售前咨询问题, 可以拨打 400 632 6626，或加入官方Q群 12742516 提问
 - 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io) 提交工单
-- 如果发现了示例代码的bug, 欢迎提交 [issue](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1/issues)
+- 如果发现了示例代码的 bug, 欢迎提交 [issue](https://github.com/AgoraIO/Agora-macOS-Tutorial-Objective-C-1to1/issues)
 
 ## 代码许可
 
