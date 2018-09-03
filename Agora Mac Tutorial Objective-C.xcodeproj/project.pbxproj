@@ -26,6 +26,7 @@
 		1A2BC69D1D5A9E6700C9AD11 /* AppID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BC69C1D5A9E6700C9AD11 /* AppID.m */; };
 		1A2BC6A01D5B05A800C9AD11 /* DeviceSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BC69F1D5B05A800C9AD11 /* DeviceSelectionViewController.m */; };
 		1A309D631D5CE05500021BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A309D611D5CE05500021BB8 /* Main.storyboard */; };
+		A7C50EEF21215CC700774322 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C50EEE21215CC700774322 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		1A2BC69E1D5B058C00C9AD11 /* DeviceSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceSelectionViewController.h; path = VideoChat/DeviceSelectionViewController.h; sourceTree = "<group>"; };
 		1A2BC69F1D5B05A800C9AD11 /* DeviceSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceSelectionViewController.m; path = VideoChat/DeviceSelectionViewController.m; sourceTree = "<group>"; };
 		1A309D621D5CE05500021BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7C50EEE21215CC700774322 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C50EEF21215CC700774322 /* Accelerate.framework in Frameworks */,
 				077537C01ED542F900EF0878 /* libresolv.tbd in Frameworks */,
 				1A2BC6981D5A9CA600C9AD11 /* libc++.1.dylib in Frameworks */,
 				1A2BC6961D5A9C9A00C9AD11 /* SystemConfiguration.framework in Frameworks */,
@@ -121,6 +124,7 @@
 		1A2BC6991D5A9CAD00C9AD11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7C50EEE21215CC700774322 /* Accelerate.framework */,
 				077537BF1ED542F900EF0878 /* libresolv.tbd */,
 				1A2BC6971D5A9CA600C9AD11 /* libc++.1.dylib */,
 				1A2BC6951D5A9C9A00C9AD11 /* SystemConfiguration.framework */,
